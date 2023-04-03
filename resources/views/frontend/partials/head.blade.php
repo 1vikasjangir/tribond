@@ -10,5 +10,5 @@
     <link rel="stylesheet" href="https://dd63psqcl1xsv.cloudfront.net/css/bootstrap1.min.css" type="text/css" rel="preload">
     <link rel="stylesheet" href="https://dd63psqcl1xsv.cloudfront.net/css/bootstrap2.min.css" type="text/css" rel="preload">
     <link rel="stylesheet" href="https://dd63psqcl1xsv.cloudfront.net/css/stylesheet.css" type="text/css" rel="preload">
-    <!-- <link rel="stylesheet" href="{{ asset('frontend/css/stylesheet.css') }}" type="text/css"> -->
+    
 </head>
