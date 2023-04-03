@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="365" height="323" viewBox="0 0 365 323">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_3" data-name="Rectangle 3" width="365" height="323" transform="translate(1555 757)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_5" data-name="Mask Group 5" transform="translate(-1555 -757)" clip-path="url(#clip-path)">
+    <g id="Group_1" data-name="Group 1" transform="matrix(0.358, -0.934, 0.934, 0.358, 359.817, 1306.013)" opacity="0.342" style="isolation: isolate">
+      <g id="Polygon_1" data-name="Polygon 1" transform="translate(459.139 945.99)" fill="none">
+        <path d="M424.748,0,849.5,744.547H0Z" stroke="none"/>
+        <path d="M 424.748046875 6.05426025390625 L 5.16522216796875 741.5464477539062 L 844.330810546875 741.5464477539062 L 424.748046875 6.05426025390625 M 424.748046875 6.103515625e-05 L 849.4960327148438 744.5464477539062 L -6.103515625e-05 744.5464477539062 L 424.748046875 6.103515625e-05 Z" stroke="none" fill="#dd1940"/>
+      </g>
+      <g id="Polygon_10" data-name="Polygon 10" transform="translate(494.615 993.805)" fill="none">
+        <path d="M390.573,0,781.146,676.2H0Z" stroke="none"/>
+        <path d="M 390.5731811523438 5.998046875 L 5.197265625 673.197021484375 L 775.9490966796875 673.197021484375 L 390.5731811523438 5.998046875 M 390.5731811523438 0 L 781.1463623046875 676.197021484375 L 0 676.197021484375 L 390.5731811523438 0 Z" stroke="none" fill="#dd1940"/>
+      </g>
+      <g id="Polygon_11" data-name="Polygon 11" transform="translate(533.91 1036.646)" fill="none">
+        <path d="M352.893,0,705.786,611.986H0Z" stroke="none"/>
+        <path d="M 352.89306640625 6.005615234375 L 5.19293212890625 608.98583984375 L 700.5932006835938 608.98583984375 L 352.89306640625 6.005615234375 M 352.89306640625 -6.103515625e-05 L 705.7861328125 611.98583984375 L 0 611.98583984375 L 352.89306640625 -6.103515625e-05 Z" stroke="none" fill="#dd1940"/>
+      </g>
+      <g id="Polygon_12" data-name="Polygon 12" transform="translate(576.581 1081.051)" fill="none">
+        <path d="M310.832,0,621.663,544.755H0Z" stroke="none"/>
+        <path d="M 310.8315734863281 6.05340576171875 L 5.165771484375 541.7548828125 L 616.4973754882812 541.7548828125 L 310.8315734863281 6.05340576171875 M 310.8315734863281 0 L 621.6631469726562 544.7548828125 L 0 544.7548828125 L 310.8315734863281 0 Z" stroke="none" fill="#dd1940"/>
+      </g>
+      <g id="Polygon_13" data-name="Polygon 13" transform="translate(613.263 1127.502)" fill="none">
+        <path d="M274.028,0,548.056,475.529H0Z" stroke="none"/>
+        <path d="M 274.0277709960938 6.008453369140625 L 5.19122314453125 472.5286865234375 L 542.8643188476562 472.5286865234375 L 274.0277709960938 6.008453369140625 M 274.0277709960938 0 L 548.0555419921875 475.5286865234375 L 0 475.5286865234375 L 274.0277709960938 0 Z" stroke="none" fill="#dd1940"/>
+      </g>
+    </g>
+  </g>
+</svg>

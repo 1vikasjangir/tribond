@@ -1,0 +1,114 @@
+/*****----
+    CSS for Media form: Media Type
+------****/
+/* .media-details {
+    display: none;
+} */
+
+.main-panel {
+    margin: 35px;
+}
+
+.content-wrapper {
+    padding: 1.5rem 2.187rem;
+    background: #f5f2f2;
+    border-radius: 9px 9px 0 0;
+}
+
+/****** Icon size *****/
+i.md-24 {
+    font-size: 1.4rem;
+}
+
+/******************/
+.form-switch .form-check-input {
+    width: 4em;
+    height: 2rem;
+}
+
+.heading_header ul {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0px;
+    padding-left: 0px;
+}
+
+.heading_header ul li {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    padding-right: 10px;
+    color: #000;
+}
+
+.heading_header ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.heading_header ul li span {
+    padding-left: 10px;
+}
+
+.sub-container h3{
+    padding: 0 15px;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+
+.accordion-header .accordion-button {
+    color: #fff !important;
+    background-color: #1F3BB3;
+}
+
+.accordion-header .accordion-button::after {
+    /* font-family: 'Material Icons'; */
+    font: var(--fa-font-solid);
+    content: "\f078";
+    font-weight: 900;
+    background: none;
+}
+
+.mobile_view {
+    display: none !important;
+}
+
+.accordion-body .form-group .form-control {
+    height: 48px;
+    border: 1px solid #ced4da;
+    padding: 9px 12px;
+    color: #8f8f8f !important;
+    font-weight: 500;
+}
+
+.accordion-body .form-group select {
+    height: 48px;
+    border: 1px solid #ced4da;
+    padding: 9px 12px;
+    color: #8f8f8f !important;
+    background-color: #fff;
+    width: 100%;
+}
+
+/* nav.sidebar.sticky_top.sticky {
+    transform: translateY(0);
+    transition: all .4s;
+}
+.sidebar.sticky_top {
+    position: fixed;
+    transition: unset;
+    transform: translateY(-150px);
+} */
+#example td a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+/***** Make thumbnail image responsive ****/
+#example td img {
+    max-width: 100%;
+    /* height: auto; */
+}

@@ -1,0 +1,560 @@
+/* coomingsoon page css */
+@font-face {
+    font-family: 'Dosis';
+    src: url('../fonts/Dosis-Regular.woff2') format('woff2'),
+        url('../fonts/Dosis-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-BlackItalic.woff2') format('woff2'),
+        url('../fonts/Lato-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Bold.woff2') format('woff2'),
+        url('../fonts/Lato-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Black.woff2') format('woff2'),
+        url('../fonts/Lato-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-LightItalic.woff2') format('woff2'),
+        url('../fonts/Lato-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato Hairline';
+    src: url('../fonts/Lato-Hairline.woff2') format('woff2'),
+        url('../fonts/Lato-Hairline.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Regular.woff2') format('woff2'),
+        url('../fonts/Lato-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Lato-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Italic.woff2') format('woff2'),
+        url('../fonts/Lato-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato Hairline';
+    src: url('../fonts/Lato-HairlineItalic.woff2') format('woff2'),
+        url('../fonts/Lato-HairlineItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Light.woff2') format('woff2'),
+        url('../fonts/Lato-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Bold.woff2') format('woff2'),
+        url('../fonts/Gotham-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Black.woff2') format('woff2'),
+        url('../fonts/Gotham-Black.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Bold.woff2') format('woff2'),
+        url('../fonts/Gotham-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Medium.woff2') format('woff2'),
+        url('../fonts/Gotham-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-LightItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Light.woff2') format('woff2'),
+        url('../fonts/Gotham-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-BookItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Light.woff2') format('woff2'),
+        url('../fonts/Gotham-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Thin.woff2') format('woff2'),
+        url('../fonts/Gotham-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Book.woff2') format('woff2'),
+        url('../fonts/Gotham-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Medium.woff2') format('woff2'),
+        url('../fonts/Gotham-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-BookItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-BookItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-ThinItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-UltraItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-UltraItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-XLight.woff2') format('woff2'),
+        url('../fonts/Gotham-XLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-XLightItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-XLightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    color: #000;
+    font-family: 'Lato';
+    font-weight: normal;
+    font-size: 16px;
+}
+img{
+    max-width: 100%
+}
+a{
+    text-decoration: none;
+    transition: all .4s;
+}
+a:hover{
+    color: #DD1940
+}
+:focus-visible {
+    outline: none;
+}
+.btn-close:focus{
+    box-shadow: none;
+}
+.coming-soon-section {
+   background: transparent linear-gradient(342deg, #121212 0%, #393939 100%) 0% 0% no-repeat padding-box;
+   opacity: 1;
+   min-height: 600px;
+   height: 100vh;
+   width: 100%;
+   position: relative;
+   overflow: hidden;
+}
+.coming-soon-section:before {
+   content: '';
+   position: absolute;
+   left: 0;
+   top: 0;
+   background: url('../images/group1.svg') no-repeat;
+   background-size: 100%;
+   width: 393px;
+   height: 263px;
+}
+.coming-soon-section::after {
+   content: '';
+   position: absolute;
+   right: 0;
+   top: 0;
+   background: url('../images/group3.svg') no-repeat;
+   background-size: 100%;
+   width: 201px;
+   height: 191px;
+}
+.coming_soon_content {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: space-around;
+   height: 100%;
+   padding: 120px 0px 75px 0px;
+}
+.commingsoon_inner.top_content {
+   text-align: center;
+}
+.list-item-commingsoon ul li {
+   list-style: none;
+}
+.list-item-commingsoon ul li {
+   list-style: none;
+   text-align: center;
+   font-size: 16px;
+   letter-spacing: 1.6px;
+   color: #fff;
+}
+.list-item-commingsoon ul li a {
+   color: #fff;
+   font: normal normal normal 16px/18px Gotham;
+   letter-spacing: 1.6px;
+}
+.list-item-commingsoon ul li a:hover {
+   color: #DD1940;
+}
+.list-item-commingsoon ul li span{
+   padding: 0px 6px;
+}
+.site_logo.commingsoon {
+   margin-bottom: 12px;
+}
+.commingsoon_inner.center_content h1 {
+   text-align: center;
+   color: #FFFFFF;
+   font-size: 50px;
+   font-weight: 700;
+   margin-bottom: 11px;
+   font-family: 'Gotham';
+   line-height: 56px;
+   letter-spacing: 25px;
+   color: #FFFFFF;
+}
+.commingsoon_inner.center_content span {
+   text-align: center;
+   letter-spacing: 5.4px;
+   color: #DD1940;
+   font-size: 18px;
+   font-weight: 500;
+   font-family: 'Gotham';
+}
+.commingsoon_inner.bottom_content p {
+   letter-spacing: 1.2px;
+   color: #FFFFFF;
+   font-size: 18px;
+   margin-bottom: 26px;
+   font-weight: normal;
+   font-family: 'Lato';
+}
+.commingsoon_inner.bottom_content h6 {
+   margin-bottom: 9px;
+}
+.commingsoon_inner.bottom_content h6 a {
+   letter-spacing: 0.9px;
+   color: #FFFFFF;
+   font-size: 18px;
+   margin-bottom: 9px;
+   font-weight: bold;
+   font-family: 'Lato';
+}
+.commingsoon_inner.bottom_content h6 a:hover {
+   color: #DD1940;
+}
+.container.outer-coomingsoon {
+   height: 100%;
+}
+.outer-coomingsoon:before {
+   content: '';
+   position: absolute;
+   left: -63px;
+   bottom: 200px;
+   background: url('../images/group4.svg') no-repeat;
+   background-size: 100%;
+   width: 292px;
+   height: 304px;
+}
+.outer-coomingsoon::after {
+   content: '';
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   background: url('../images/group6.svg') no-repeat;
+   background-size: 100%;
+   width: 201px;
+   height: 191px;
+}
+.coming_soon_content:before {
+   content: '';
+   position: absolute;
+   left: 48.4%;
+   top: 0;
+   background: url(../images/group2.svg) no-repeat;
+   background-size: 100%;
+   width: 235px;
+   height: 171px;
+}
+.coming_soon_content::after {
+   content: '';
+   position: absolute;
+   left: 23%;
+   bottom: 0;
+   background: url('../images/group5.svg') no-repeat;
+   background-size: 100%;
+   width: 296px;
+   height: 139px;
+}
+.commingsoon_inner.center_content {
+   margin: 80px 0;
+}
+@media (max-width: 1500px) {
+   .coming-soon-section:before{
+       width: 263px;
+   }
+   .coming_soon_content:before{
+       width: 160px;
+   }
+   .coming-soon-section::after{
+       width: 150px
+   }
+   .outer-coomingsoon:before{
+       bottom: 160px;
+       width: 200px;
+       height: 232px;
+   }
+   .coming_soon_content::after {
+       left: 16%;
+       width: 226px;
+       height: 105px;
+   }
+   .outer-coomingsoon::after {
+       width: 151px;
+       height: 132px;
+   }
+   .commingsoon_inner.center_content h1{
+       font-size: 42px;
+       line-height: 45px;
+       letter-spacing: 20px;
+   }
+   .commingsoon_inner.center_content span{
+       font-size: 16px;
+   }
+}
+@media (max-width: 1279px) {
+   .commingsoon_inner.center_content h1 {
+       font-size: 38px;
+       line-height: 40px;
+       letter-spacing: 16px;
+   }
+   .site_logo.commingsoon {
+       max-width: 340px;
+       margin: 0 auto 10px;
+   }
+   .list-item-commingsoon ul li a {
+       font-size: 14px;
+       line-height: 16px;
+       letter-spacing: 0.6px;
+   }
+   .commingsoon_inner.bottom_content p, .commingsoon_inner.bottom_content h6 a{
+       font-size: 16px;
+   }
+
+}
+@media (max-width: 1023px){
+   .coming-soon-section:before {
+       width: 163px;
+   }
+   .coming_soon_content:before {
+       width: 120px;
+   }
+   .coming-soon-section::after {
+       width: 100px;
+   }
+   .outer-coomingsoon:before {
+       width: 130px;
+       height: 142px;
+       left: -40px;
+   }
+   .coming_soon_content::after {
+       left: 13%;
+       width: 170px;
+       height: 78px;
+   }
+   .outer-coomingsoon::after {
+       width: 100px;
+       height: 86px;
+   }
+   .commingsoon_inner.center_content h1 {
+       font-size: 34px;
+       line-height: 36px;
+       letter-spacing: 16px;
+   }
+}
+@media (max-width: 767px) {
+   .coming-soon-section::after{
+       display: none;
+   }
+   .coming_soon_content:before {
+       left: auto;
+       right: -30px;
+   }
+   .list-item-commingsoon ul {
+       flex-wrap: wrap;
+   }
+   .list-item-commingsoon ul span{
+       display: none;
+   }
+   .list-item-commingsoon ul li{
+       width: 100%;
+   }
+   .commingsoon_inner.center_content h1{
+       letter-spacing: 2px;
+   }
+   .outer-coomingsoon:before{
+       display: none
+   }
+   .coming_soon_content::after {
+       left: 0;
+       width: 140px;
+       height: 64px;
+   }
+   .outer-coomingsoon::after {
+       width: 80px;
+       height: 70px;
+   }
+   .commingsoon_inner.center_content {
+       margin: 50px 0;
+   }
+}
